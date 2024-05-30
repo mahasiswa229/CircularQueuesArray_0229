@@ -49,7 +49,7 @@ class Queues
            cout <<  "\nQueue underflow\n";
            return;
         }
-        cout << "\nThe elments deleted from thr queue is : " << queue_array[front] << "\n"
+        cout << "\nThe elments deleted from thr queue is : " << queue_array[front] << "\n";
         if (front == rear)
     {
         front = -1;
@@ -149,11 +149,12 @@ int main()
                     break;
                 }
             }
+        }
             catch (exception& e)
             {
                 cout << "Check for the Values entered." << endl;
             }
-        }
+        
         return 0;
     }
 }

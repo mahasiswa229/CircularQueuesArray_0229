@@ -106,7 +106,7 @@ class Queues
 
 int main()
 {
-    
+    Queues q;
 }
 
     

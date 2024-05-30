@@ -62,7 +62,28 @@ class Queues
         else
         front = front + 1; 
     }
-}
+    }
+    void display()
+    {
+        int front_position = front;
+        int rear_position = rear;
+
+        if(front_position == -1)
+        {
+            cout << "\nQueue is empty\n";
+            return;
+        }
+
+        cout << "\nElements in the queue are ...\n";
+
+        if(front_position <= rear_position)
+        {
+            while(front_position <= rear_position)
+            {
+                cout << queue_array[front_position] << " ";
+            }
+        }
+    }
 };
 
     

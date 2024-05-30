@@ -3,6 +3,6 @@ using namespace std;
 
 class Queues
 {
-    
+    private:
 }
 
